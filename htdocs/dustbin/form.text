@@ -1,0 +1,14 @@
+<form>
+		<div class="form-container">
+		  <div class="personal-information">
+			<h1>Payment Information</h1>
+		  </div> <!-- end of personal-information -->
+		  <label>Street:</label>
+		  <input id="input-field" type="text" name="streetaddress" required="required" autocomplete="on" maxlength="45" placeholder="Streed Address"/>
+		  <br><label>City:</label>
+		  <input id="column-left" type="text" name="city" required="required" autocomplete="on" maxlength="20" placeholder="City"/>
+		  <br><label>City:</label>
+		  <input id="column-right" type="text" name="zipcode" required="required" autocomplete="on" pattern="[0-9]*" maxlength="5" placeholder="ZIP code"/>
+		  <br><label>City:</label>
+		  <input id="input-field" type="email" name="email" required="required" autocomplete="on" maxlength="40" placeholder="Email"/>
+		</form>
